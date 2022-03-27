@@ -16,6 +16,8 @@ import AdminTemplate from "./templates/AdminTemplate";
 import Films from './pages/Films'
 import AddPhim from "./pages/AddPhim";
 import Edit from "./pages/Edit";
+import Newsman from "./pages/Newsman";
+import Contact from "./pages/Contact";
 export const history = createBrowserHistory();
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <HomeTemplate path="/" exact Component={Home} />
         <HomeTemplate path="/home" exact Component={Home} />
         <HomeTemplate path="/footer" exact Component={Footer} />
+        <HomeTemplate path="/thongtin" exact Component={Newsman} />
+        <HomeTemplate path="/contact" exact Component={Contact} />
         <HomeTemplate path='/detail/:id' exact Component={Detail} />
         <Route path='/login' exact component={Login} />
         <Route path='/xemPhim/:id' exact component={XemPhim} />

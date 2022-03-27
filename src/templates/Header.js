@@ -10,12 +10,8 @@ const mainNav = [
     path: "/",
   },
   {
-    display: "footer",
-    path: "/footer",
-  },
-  {
-    display: "Phụ kiện",
-    path: "/accessories",
+    display: "Thông tin",
+    path: "/thongtin",
   },
   {
     display: "Liên hệ",
