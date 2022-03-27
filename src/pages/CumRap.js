@@ -21,7 +21,7 @@ export default function CumRap(props) {
                 type:CUM_RAP_API,
                 maRap:item.maHeThongRap
             })
-    },[]);
+    },[item.maHeThongRap]);
   return (
       <div>{renderHTrap()}</div>
      

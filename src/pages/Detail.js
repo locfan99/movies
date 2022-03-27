@@ -13,7 +13,7 @@ export default function Detail(props) {
       type: LAY_THONG_TIN_PHIM_API,
       id,
     });
-  }, []);
+  }, [id]);
 
   return (
     <div style={{backgroundImage:`url(${filmDetail.hinhAnh})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'canter'}} >
