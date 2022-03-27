@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.8);
+  transition: height 0.3s ease;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  &.shrink {
+    height: 60px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 100;
+  }
+  &__logo img {
+    height: 50px;
+  }
+  &__menu__center {
+    display: flex;
+    &__item {
+      margin-right: 60px;
+      font-size: 17px;
+      font-weight: 600;
+      color: grey;
+      animation: 0.3 ease;
+      text-decoration: none;
+      &.activeNavbar {
+        color: white !important;
+        animation: 0.3 ease;
+      }
+    }
+  }
+}
+.hoverlink:hover {
+  color: red;
+}

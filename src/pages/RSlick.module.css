@@ -1,0 +1,11 @@
+.slick-prev:before, .slick-next:before {
+    color:black !important;
+    font-size: 30px !important;
+}
+.btnSlick {
+    padding: 20px;
+    background-color: black!important;
+}
+.active_Film{
+    background-color: black !important;
+}
